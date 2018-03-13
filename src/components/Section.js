@@ -1,11 +1,9 @@
 import React from 'react';
-import Hobby from './Hobby.js';
+import HobbyList from './HobbyList.js';
 
 const Section = () => (
   <section>
-    <ul>
-      <Hobby/>
-    </ul>
+    <HobbyList/>
   </section>
 )
 
